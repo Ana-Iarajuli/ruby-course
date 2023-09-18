@@ -14,7 +14,9 @@
 
 def split_in_two(arr)
     second_half_arr = arr.length / 2
+    p second_half_arr
     first_half_arr = arr.length - second_half_arr
+    p first_half_arr
     p new_arr = [arr.first(first_half_arr), arr.last(second_half_arr)]
     # if arr.length % 2 == 0
     #     new_arr[0] = arr.first(arr.length / 2)
@@ -27,8 +29,8 @@ def split_in_two(arr)
     # end
 end
 
-split_in_two(["A", "B"])
-split_in_two(["A", "B", "C", "D"])  
-split_in_two(["A", "B", "C"])  
+# split_in_two(["A", "B"])
+# split_in_two(["A", "B", "C", "D"])  
+# split_in_two(["A", "B", "C"])  
 split_in_two(["A", "B", "C", "D", "E"])
 
